@@ -1,22 +1,27 @@
-# Sample Python Project
+# Tic-Tac-Toe Game
 
-This repository contains a simple Python module with an example function and accompanying tests using pytest.
+This repository now contains a simple command-line Tic-Tac-Toe game. The game uses a minimax-based AI so the computer plays optimally.
 
-## Getting Started
+## Running the Game
 
-1. Install [Python](https://www.python.org/) if you haven't already.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the tests:
-   ```bash
-   pytest
-   ```
+```bash
+python tictactoe.py
+```
 
-## Project Structure
+On your turn, enter a number from 0-8 corresponding to the board position:
 
-- `calculator.py` - Contains a simple `add` function.
-- `tests/` - Contains unit tests for the module.
+```
+0 | 1 | 2
+---+---+---
+3 | 4 | 5
+---+---+---
+6 | 7 | 8
+```
 
-Feel free to expand this project with additional functions and tests.
+## Running Tests
+
+The project includes a few basic tests for the game logic. Run them with:
+
+```bash
+pytest
+```
